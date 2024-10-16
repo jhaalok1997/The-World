@@ -1,0 +1,203 @@
+[
+    {
+      "id": 1,  
+      "name": "Narendra Modi",
+      "DOB": "17 September 1950",
+      "current_position": "Prime Minister",
+      "country": "India",
+      "image": "URL_to_image",
+      "description": "Leader of the Bharatiya Janata Party (BJP), known for economic reforms and strong leadership.",
+      "age": 74
+    },
+    {
+      "id": 2, 
+      "name": "Joe Biden",
+      "DOB": "20 November 1942",
+      "current_position": "President",
+      "country": "United States",
+      "image": "URL_to_image",
+      "description": "46th President of the United States, focusing on healthcare, climate change, and economic recovery.",
+      "age": 81
+    },
+    {
+        "id": 3, 
+      "name": "Angela Merkel",
+      "DOB": "17 July 1954",
+      "current_position": "Former Chancellor",
+      "country": "Germany",
+      "image": "URL_to_image",
+      "description": "Former Chancellor of Germany, known for her pragmatic leadership and handling of the Eurozone crisis.",
+      "age": 70
+    },
+    {
+        "id": 4, 
+      "name": "Justin Trudeau",
+      "DOB": "25 December 1971",
+      "current_position": "Prime Minister",
+      "country": "Canada",
+      "image": "URL_to_image",
+      "description": "Prime Minister of Canada, known for his progressive policies and charismatic leadership.",
+      "age": 53
+    },
+    {
+        "id": 5, 
+      "name": "Emmanuel Macron",
+      "DOB": "21 December 1977",
+      "current_position": "President",
+      "country": "France",
+      "image": "URL_to_image",
+      "description": "President of France, known for his centrist policies and efforts to reform the French economy.",
+      "age": 47
+    },
+    {
+        "id": 6, 
+      "name": "Xi Jinping",
+      "DOB": "15 June 1953",
+      "current_position": "President",
+      "country": "China",
+      "image": "URL_to_image",
+      "description": "President of China, known for his strong leadership and economic policies.",
+      "age": 71
+    },
+    {
+        "id": 7, 
+      "name": "Boris Johnson",
+      "DOB": "19 June 1964",
+      "current_position": "Former Prime Minister",
+      "country": "United Kingdom",
+      "image": "URL_to_image",
+      "description": "Former Prime Minister of the United Kingdom, known for his role in Brexit and handling of the COVID-19 pandemic.",
+      "age": 60
+    },
+    {
+        "id": 8, 
+      "name": "Vladimir Putin",
+      "DOB": "7 October 1952",
+      "current_position": "President",
+      "country": "Russia",
+      "image": "URL_to_image",
+      "description": "President of Russia, known for his strongman image and long-standing leadership.",
+      "age": 72
+    },
+    {
+        "id": 9, 
+      "name": "Recep Tayyip Erdoğan",
+      "DOB": "26 February 1954",
+      "current_position": "President",
+      "country": "Turkey",
+      "image": "URL_to_image",
+      "description": "President of Turkey, known for his conservative policies and strong leadership.",
+      "age": 70
+    },
+    {
+        "id": 10, 
+      "name": "Jacinda Ardern",
+      "DOB": "26 July 1980",
+      "current_position": "Former Prime Minister",
+      "country": "New Zealand",
+      "image": "URL_to_image",
+      "description": "Former Prime Minister of New Zealand, known for her empathetic leadership and progressive policies.",
+      "age": 44
+    },
+    {
+        "id": 11, 
+      "name": "Nikol Pashinyan",
+      "DOB": "1 June 1975",
+      "current_position": "Prime Minister",
+      "country": "Armenia",
+      "image": "URL_to_image",
+      "description": "Prime Minister of Armenia, known for his role in the Velvet Revolution and efforts to combat corruption.",
+      "age": 49
+    },
+    {
+        "id": 12, 
+      "name": "Sanna Marin",
+      "DOB": "16 November 1985",
+      "current_position": "Former Prime Minister",
+      "country": "Finland",
+      "image": "URL_to_image",
+      "description": "Former Prime Minister of Finland, known for her progressive policies and young leadership.",
+      "age": 39
+    },
+    {
+        "id": 13, 
+      "name": "Pedro Sánchez",
+      "DOB": "29 February 1972",
+      "current_position": "Prime Minister",
+      "country": "Spain",
+      "image": "URL_to_image",
+      "description": "Prime Minister of Spain, known for his social democratic policies and efforts to combat inequality.",
+      "age": 52
+    },
+    {
+        "id": 14, 
+      "name": "Moon Jae-in",
+      "DOB": "24 January 1953",
+      "current_position": "Former President",
+      "country": "South Korea",
+      "image": "URL_to_image",
+      "description": "Former President of South Korea, known for his efforts to improve inter-Korean relations and social welfare policies.",
+      "age": 71
+    },
+    {
+        "id": 15, 
+      "name": "Mahinda Rajapaksa",
+      "DOB": "18 November 1945",
+      "current_position": "Former President",
+      "country": "Sri Lanka",
+      "image": "URL_to_image",
+      "description": "Former President of Sri Lanka, known for his role in ending the civil war and his political comeback.",
+      "age": 79
+    },
+    {
+        "id": 16, 
+      "name": "Paul Kagame",
+      "DOB": "23 October 1957",
+      "current_position": "President",
+      "country": "Rwanda",
+      "image": "URL_to_image",
+      "description": "President of Rwanda, known for his role in rebuilding the country after the genocide and promoting economic growth.",
+      "age": 67
+    },
+    {
+        "id": 17, 
+      "name": "Andrés Manuel López Obrador",
+      "DOB": "13 November 1953",
+      "current_position": "President",
+      "country": "Mexico",
+      "image": "URL_to_image",
+      "description": "President of Mexico, known for his anti-corruption stance and social welfare programs.",
+      "age": 71
+    },
+    {
+        "id": 18, 
+      "name": "Scott Morrison",
+      "DOB": "13 May 1968",
+      "current_position": "Former Prime Minister",
+      "country": "Australia",
+      "image": "URL_to_image",
+      "description": "Former Prime Minister of Australia, known for his conservative policies and handling of the COVID-19 pandemic.",
+      "age": 56
+    },
+    {
+        "id": 19, 
+      "name": "Gitanas Nausėda",
+      "DOB": "19 May 1964",
+      "current_position": "President",
+      "country": "Lithuania",
+      "image": "URL_to_image",
+      "description": "President of Lithuania, known for his focus on economic development and European integration.",
+      "age": 60
+    },
+    {
+        "id": 20, 
+      "name": "Kamala Harris",
+      "DOB": "9 October 1964",
+      "current_position": "Vice President",
+      "country": "United States",
+      "image": "URL_to_image",
+      "description": "Vice President of the United States, known for her historic role as the first female Vice President and her focus on social justice.",
+      "age": 60
+    }
+  ]
+  
