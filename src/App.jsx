@@ -5,6 +5,7 @@ import { About } from './pages/About.jsx'
 import { Contact } from './pages/Contact.jsx'
 import { Country } from './pages/Country.jsx'
 import { Errorpage } from './pages/Errorpage.jsx'
+import { CountryDetails } from './components/layout/CountryDetails.jsx'
 import './App.css'
 
 const router = createBrowserRouter([
@@ -28,6 +29,10 @@ const router = createBrowserRouter([
     {
       path: "Country",
       element: <Country/>,
+    },
+    {
+      path: "Country/:id",
+      element: <CountryDetails/>,
     },
   ]
   }

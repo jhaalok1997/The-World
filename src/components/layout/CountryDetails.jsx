@@ -1,11 +1,28 @@
-import { NavLink } from "react-router-dom"
+import { useParams } from "react-router-dom"
+import { getCountrySpecificData } from "../../api/postApi";
 
-export const Countrycard = ({country}) => {
-    const{flags,name,population,region,capital}= country
+
+export const CountryDetails = () => {
+
+    const params =  useParams()
+    const [isPending, startTransition] = useTransition();
+    const [country, setCountry] = useState([]);
+
+
+       useEffect(() => {
+       startTransition(async () => {
+       const response = await getCountrySpecificData(params.id);
+       console.log(response)
+           setCountry(response.data);
+        })
+       }, []);
+
+           if (isPending) return <h1>Loading.....</h1>;
+
+
   return (
     <>
-            
-            <li className="country-card card">
+         <li className="country-card card">
                 <div className="container-card bg-white-box">
                 <img src={flags.png} alt={flags.alt}/>
                
@@ -19,9 +36,11 @@ export const Countrycard = ({country}) => {
                 </div>
                 </div>   
             </li>
-            
-            
+
+
+        
+        
     </>
-   
+  
   )
 }

@@ -16,10 +16,8 @@ export const getCountryData = () => {
 
 
 
-// https://restcountries.com/v3.1/all?fields=name,population,region,capital,flags
-//
+// HTTP GET METHOD for the specific country
 
-
-
-
-//https://freetestapi.com/api/v1/politicians
+export const getCountrySpecificData = (name) => {
+    return api.get(`/name/${name}?fullText=true&feilds=name,population,region,subregion,capital,currencies,languages,border,flags`)
+}
