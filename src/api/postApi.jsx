@@ -19,5 +19,5 @@ export const getCountryData = () => {
 // HTTP GET METHOD for the specific country
 
 export const getCountrySpecificData = (name) => {
-    return api.get(`/name/${name}?fullText=true&feilds=name,population,region,subregion,capital,currencies,languages,border,flags`)
+    return api.get(`/name/${name}?fullText=true&fields=name,population,region,subregion,capital,currencies,languages,borders,flags,tld`)
 }
